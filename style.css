@@ -71,9 +71,10 @@ body {
     height: 700px;
     overflow: hidden;
     margin-top: 50px;
-    /*display: flex;
-    align-items: center;
-    */
+}
+
+.header-content {
+    margin-top: 10%;
 }
 
 #header-bg {
@@ -123,5 +124,9 @@ body {
     cursor: pointer;
     background-color: #d1114b;
     text-decoration: none;
-    ;
+}
+
+.header-button:active {
+    background-color: #ac0d3c;
+    transition: none;
 }
